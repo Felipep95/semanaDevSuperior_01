@@ -8,9 +8,9 @@ import { RecordsResponse } from './types';
 import { formatDate } from './helpers';
 import Pagination from './Pagination';
 
-import Filters from '../../components/Filters'
+import Filters from '../../components/Filters';
  
-const BASE_URL = 'https://semana-dev-superior-01.herokuapp.com'
+const BASE_URL = 'https://semana-dev-superior-01.herokuapp.com';
 
 const Records = () => {
 

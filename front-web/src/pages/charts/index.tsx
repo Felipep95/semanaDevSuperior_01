@@ -27,7 +27,7 @@ const initialPieData = {
     series: [],
 }
 
-const BASE_URL = 'https://semana-dev-superior-01.herokuapp.com'
+const BASE_URL = 'https://semana-dev-superior-01.herokuapp.com';
 
 const Charts = () => {
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
